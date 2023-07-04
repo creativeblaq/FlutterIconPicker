@@ -126,7 +126,7 @@ class DefaultDialog extends StatelessWidget {
                       ),
                     ),
                     if (showSearchBar!)
-                      SearchBar(
+                      FIPSearchBar(
                         iconController: controller,
                         iconPack: iconPackMode,
                         customIconPack: customIconPack,
@@ -172,7 +172,7 @@ class DefaultDialog extends StatelessWidget {
               child: Column(
                 children: <Widget>[
                   if (showSearchBar!)
-                    SearchBar(
+                    FIPSearchBar(
                       iconController: controller,
                       iconPack: iconPackMode,
                       customIconPack: customIconPack,

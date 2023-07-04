@@ -85,7 +85,7 @@ class FullScreenDialog extends StatelessWidget {
                 ),
               ),
               if (showSearchBar!)
-                SearchBar(
+                FIPSearchBar(
                   iconController: iconController,
                   iconPack: iconPackMode,
                   customIconPack: customIconPack,

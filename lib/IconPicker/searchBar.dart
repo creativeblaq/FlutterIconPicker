@@ -10,8 +10,8 @@ import '../Helpers/ColorBrightness.dart';
 import '../Models/IconPack.dart';
 import 'icons.dart';
 
-class SearchBar extends StatefulWidget {
-  const SearchBar({
+class FIPSearchBar extends StatefulWidget {
+  const FIPSearchBar({
     required this.iconController,
     required this.iconPack,
     required this.searchHintText,
@@ -34,7 +34,7 @@ class SearchBar extends StatefulWidget {
   _SearchBarState createState() => _SearchBarState();
 }
 
-class _SearchBarState extends State<SearchBar> {
+class _SearchBarState extends State<FIPSearchBar> {
   _search(String searchValue) {
     Map<String, IconData> searchResult = Map<String, IconData>();
 
